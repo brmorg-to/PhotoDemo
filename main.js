@@ -31,9 +31,15 @@ console.log("###############################################");
 //Get elements
 
 let photo = document.querySelector(".photo");
+let photo2 = document.querySelector(".photo2");
 let matted = document.querySelector(".matted");
+let matted2 = document.querySelector(".matted2");
 let framed = document.querySelector(".framed");
+let framed2 = document.querySelector(".framed2");
 
 photo.textContent = firstPhoto.toString();
+photo2.textContent = secondPhoto.toString();
 matted.textContent = mattedPhoto1.toString();
+matted2.textContent = mattedPhoto2.toString();
 framed.textContent = framedPhoto1.toString();
+framed2.textContent = framedPhoto2.toString();
