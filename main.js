@@ -27,3 +27,13 @@ console.log(framedPhoto1.toString());
 console.log(framedPhoto2.toString());
 console.log(framedPhoto3.toString());
 console.log("###############################################");
+
+//Get elements
+
+let photo = document.querySelector(".photo");
+let matted = document.querySelector(".matted");
+let framed = document.querySelector(".framed");
+
+photo.textContent = firstPhoto.toString();
+matted.textContent = mattedPhoto1.toString();
+framed.textContent = framedPhoto1.toString();
